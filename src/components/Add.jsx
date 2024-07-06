@@ -10,7 +10,7 @@ const Add = () => {
         alignItems: 'center',
         justifyContent: 'center',
         minHeight: '100vh',
-        background: 'darkseagreen', // To center vertically
+        background: 'darksalmon', // To center vertically
       }}
     >
     <Box 
@@ -19,7 +19,7 @@ const Add = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        background:'pink',
+        background:'cornsilk',
         '& .MuiTextField-root': { m: 2, width: '35ch' },
         
         

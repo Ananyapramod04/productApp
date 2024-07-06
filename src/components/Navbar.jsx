@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar style={{background:'Black'}} position="fixed" open={open}>
+      <AppBar style={{background:'brown'}} position="fixed" open={open}>
         <Toolbar>
           <IconButton
             color="inherit"

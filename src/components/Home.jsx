@@ -21,8 +21,8 @@ const Home = () => {
           });
     }, []);
     return (
-        <div style={{ display: 'flex', justifyContent: 'center',background:('darkseagreen') }}>
-            <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'pink',minWidth:'350px'}}>
+        <div style={{ display: 'flex', justifyContent: 'center',background:('darksalmon') }}>
+            <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'cornsilk',minWidth:'350px'}}>
                 {data.map((row, index) => (
                     <ListItem alignItems="flex-start" key={index}sx={{ border: '1px solid grey', borderRadius: '8px', marginBottom: '8px',padding:'40px' }}
                     >
